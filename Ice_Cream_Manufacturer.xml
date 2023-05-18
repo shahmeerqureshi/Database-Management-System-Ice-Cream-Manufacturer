@@ -1,0 +1,30 @@
+<WAREHOUSE>
+  <WarehouseID>123</WarehouseID>
+  <WarehouseName>Warehouse A</WarehouseName>
+</WAREHOUSE>
+<INGREDIENTS>
+  <BatchID>456</BatchID>
+  <IngredientName>Sugar</IngredientName>
+  <CountryOfOrigin>Brazil</CountryOfOrigin>
+  <StockCount>10000</StockCount>
+  <ExpiryDate>2023-12-31</ExpiryDate>
+</INGREDIENTS>
+<FLAVOURS>
+  <FlavourID>789</FlavourID>
+  <FlavourName>Vanilla</FlavourName>
+  <ActiveOrders>5</ActiveOrders>
+</FLAVOURS>
+<BRANDS>
+  <BrandID>234</BrandID>
+  <BrandName>Brand X</BrandName>
+</BRANDS>
+<DISTRIBUTORS>
+  <DistributorID>567</DistributorID>
+  <DistributorName>Distributor Y</DistributorName>
+  <DestinationCountry>Canada</DestinationCountry>
+</DISTRIBUTORS>
+<ORDERS>
+  <OrderID>890</OrderID>
+  <OrderDate>2023-04-04</OrderDate>
+  <OrderStatus>Processing</OrderStatus>
+</ORDERS>

@@ -1,0 +1,56 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="WAREHOUSE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="WarehouseID" type="xs:integer"/>
+        <xs:element name="WarehouseName" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="INGREDIENTS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="BatchID" type="xs:integer"/>
+        <xs:element name="IngredientName" type="xs:string"/>
+        <xs:element name="CountryOfOrigin" type="xs:string"/>
+        <xs:element name="StockCount" type="xs:integer"/>
+        <xs:element name="ExpiryDate" type="xs:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FLAVOURS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="FlavourID" type="xs:integer"/>
+        <xs:element name="FlavourName" type="xs:string"/>
+        <xs:element name="ActiveOrders" type="xs:integer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BRANDS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="BrandID" type="xs:integer"/>
+        <xs:element name="BrandName" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DISTRIBUTORS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DistributorID" type="xs:integer"/>
+        <xs:element name="DistributorName" type="xs:string"/>
+        <xs:element name="DestinationCountry" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ORDERS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="OrderID" type="xs:integer"/>
+        <xs:element name="OrderDate" type="xs:date"/>
+        <xs:element name="OrderStatus" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
