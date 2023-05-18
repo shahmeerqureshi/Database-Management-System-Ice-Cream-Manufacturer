@@ -38,12 +38,12 @@ To get started with the Database Management System: Ice Cream Manufacturer, foll
 1. Launch the SQLite command-line interface by running the following command: sqlite3 ice_cream.db
 
 2. Execute SQL queries to interact with the database and perform various operations, such as:
-  Adding or updating ice cream flavors and their quantities
-  Managing customer orders and tracking fulfillment status
-  Generating reports on inventory levels, sales, and other relevant data
+* Adding or updating ice cream flavors and their quantities
+* Managing customer orders and tracking fulfillment status
+* Generating reports on inventory levels, sales, and other relevant data
 
 ## Acknowledgements
 I would like to acknowledge the following resources and libraries that have been instrumental in the development of this project:
 
-SQLite: https://www.sqlite.org
-XML and XSLT libraries: https://example.com/xml-library
+* SQLite: https://www.sqlite.org
+* XML and XSLT libraries: https://example.com/xml-library
