@@ -1,1 +1,1 @@
-# Restaurant-Management-System-GUI-Application
+# Database Management System: Ice Cream Manufacturer
